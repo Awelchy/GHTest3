@@ -1,0 +1,66 @@
+{
+  "name": "Ghtest3",
+  "description": "",
+  "spectralExtends": [],
+  "extends": [
+    "cHJqOjE0MzcxMw",
+    "cHJqOjEyMzU4Ng",
+    "cHJqOjEzNDcyMQ"
+  ],
+  "formats": [
+    "oas2",
+    "oas3",
+    "oas3.0",
+    "oas3.1"
+  ],
+  "aliases": {},
+  "rules": {},
+  "extendedStyleguides": [
+    {
+      "id": "cHJqOjEzNDcyMQ",
+      "name": "URL Style Guidelines",
+      "slug": "url-guidelines",
+      "workspace": {
+        "slug": "apistylebook",
+        "name": "API Stylebook"
+      },
+      "icon": "link",
+      "color": "#b33737",
+      "description": "URL naming and structure",
+      "latestRelease": {
+        "release": 22
+      }
+    },
+    {
+      "id": "cHJqOjEyMzU4Ng",
+      "name": "Stoplight Style Guide",
+      "slug": "stoplight-style-guide",
+      "workspace": {
+        "slug": "apistylebook",
+        "name": "API Stylebook"
+      },
+      "icon": "robot",
+      "color": "#3898ff",
+      "description": "Default rules for Stoplight projects",
+      "latestRelease": {
+        "release": 37
+      }
+    },
+    {
+      "id": "cHJqOjE0MzcxMw",
+      "name": "Enforce HTTPs",
+      "slug": "enforce-https",
+      "workspace": {
+        "slug": "apistylebook",
+        "name": "API Stylebook"
+      },
+      "icon": "lock",
+      "color": "#2b39c1",
+      "description": "Enforce HTTPS on your APIs",
+      "latestRelease": {
+        "release": 10
+      }
+    }
+  ],
+  "extendedDefault": true
+}
